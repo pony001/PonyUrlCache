@@ -23,7 +23,7 @@
     
     [NSURLCache setSharedURLCache:urlCache];
     
-    sleep(1); // Critically important line, sadly, but it's worth it!
+    //sleep(1); // Critically important line, sadly, but it's worth it!
     
     return YES;
 }

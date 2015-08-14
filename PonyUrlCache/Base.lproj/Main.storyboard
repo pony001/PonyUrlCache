@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEC-OI-8H4">
-                                <rect key="frame" x="285" y="257" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEC-OI-8H4">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
                                 <state key="normal" title="test">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,10 +25,21 @@
                                     <action selector="tapTest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iYX-an-Ta9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYA-Px-EJn">
+                                <rect key="frame" x="274" y="360" width="52" height="30"/>
+                                <state key="normal" title="test ma">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapTestMa:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QbG-8V-dWL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="GYA-Px-EJn" firstAttribute="top" secondItem="gEC-OI-8H4" secondAttribute="bottom" constant="45" id="NyW-vj-fO4"/>
                             <constraint firstAttribute="centerY" secondItem="gEC-OI-8H4" secondAttribute="centerY" id="Qgo-d4-hNg"/>
+                            <constraint firstAttribute="centerX" secondItem="GYA-Px-EJn" secondAttribute="centerX" id="f3O-Kd-SCk"/>
                             <constraint firstAttribute="centerX" secondItem="gEC-OI-8H4" secondAttribute="centerX" id="go6-sQ-M9B"/>
                         </constraints>
                     </view>

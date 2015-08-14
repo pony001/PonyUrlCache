@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B92FBB5F-E1B8-4A0F-8027-71F44742F1A1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PonyUrlCache</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FFEEB870546041C0F2D137042D3A70FFBD7468F9</key>
+		<string>https://github.com/pony001/PonyUrlCache.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PonyUrlCache.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FFEEB870546041C0F2D137042D3A70FFBD7468F9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pony001/PonyUrlCache.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FFEEB870546041C0F2D137042D3A70FFBD7468F9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FFEEB870546041C0F2D137042D3A70FFBD7468F9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PonyUrlCache</string>
+		</dict>
+	</array>
+</dict>
+</plist>
